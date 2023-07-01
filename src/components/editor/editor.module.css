@@ -1,0 +1,13 @@
+.editor{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.hide{
+    width: 0;
+    height: 0;
+    display: none;
+    visibility: hidden;
+}

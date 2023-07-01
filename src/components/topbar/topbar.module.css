@@ -1,0 +1,68 @@
+.tabs{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 40px;
+  }
+  
+  .tabs li{
+    padding: 12px 10px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .active{
+    background-color: #e61837ec;
+    color: white;
+    font-weight: 700;
+  }
+
+  .right{
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+  }
+
+  .run{
+      margin: 3px 12px;
+      margin-right: 0;
+      padding: 8px 30px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 40px;
+      background-color: #e61837ec;
+      color: white;
+      cursor: pointer;
+  }
+
+  .run:active{
+      background-color: #680c1aec;
+  }
+
+  .select{
+      padding: 5px 20px;
+  }
+
+  @media (max-width: 1024px){
+      .tabs{
+          padding: 0 5px 0 0;
+      }
+      .tabs li{
+        padding: 12px 8px;
+        width: 70px;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 500;
+        text-align: center;
+      }
+      .run{
+          padding: 8px 20px;
+      }
+      .select{
+          margin-left: 8px;
+          padding: 3px 10px;
+      }
+  }

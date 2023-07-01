@@ -1,0 +1,27 @@
+.App{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+}
+
+.dashboard{
+    height: 100%;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.output{
+    height: 100%;
+    overflow: auto;
+    flex-grow: 1;
+}
+
+@media (max-width: 1024px){
+    .App{
+        flex-direction: column;
+    }
+    .output{
+        height: 60%;
+    }
+}
